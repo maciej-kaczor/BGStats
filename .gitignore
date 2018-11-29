@@ -1,2 +1,5 @@
 *.sqlite3
 secret_settings.py
+*.pyc
+
+BGStats/__pycache__/
