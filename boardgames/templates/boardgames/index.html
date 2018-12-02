@@ -1,0 +1,10 @@
+{% if boardgames %}
+<div class="boardgames">
+    {% for game in boardgames %}
+    <div class="boardgame">
+        <img src="{{ game.image.url }}" width="300px" height="200px">
+        <div class="name">{{game.name}}</div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}

@@ -4,3 +4,6 @@ djangorestframework
 markdown
 django-filter
 Redis
+Pillow
+libsass
+django-sass-processor
